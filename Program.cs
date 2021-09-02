@@ -15,7 +15,9 @@ namespace Cebolinha
             Console.Write("\nCebolinha: ");
             
             Console.ResetColor();
-            Console.WriteLine(texto.Replace("r", "l"));
+            Console.WriteLine(texto
+            .Replace("r", "l")
+            .Replace("R", "L") );
 
             Console.ResetColor();
             
